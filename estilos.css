@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #2b2a33;
+  background-color: #ffffff;
+}
+
+.ancho {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.franja_cabecera_total {
+  width: 100%;
+  border-bottom: 4px solid #ededf0;
+}
+
+.cabecera_contenido {
+  padding: 14px 0;
+}
+
+.contenedor_logo {
+  display: inline-block;
+  width: 140px;
+  vertical-align: middle;
+}
+
+.contenedor_logo img {
+  width: 110px;
+  display: block;
+}
+
+.contenedor_menu {
+  display: inline-block;
+  width: 820px;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+.enlace_menu {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 32px;
+  vertical-align: middle;
+}
+
+.contenedor_boton {
+  display: inline-block;
+  width: 220px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.btn_descargar {
+  display: inline-block;
+  text-decoration: none;
+  color: #0060df;
+  border: 1.5px solid #0060df;
+  border-radius: 4px;
+  padding: 7px 16px;
+  font-weight: bold;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.seccion_hero {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.caja_hero_texto {
+  display: inline-block;
+  width: 670px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.logo_firefox {
+  margin-bottom: 20px;
+}
+
+.logo_firefox img {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
+.titulo_hero {
+  font-size: 52px;
+  line-height: 58px;
+  font-weight: bold;
+  color: #2b2a33;
+  margin-bottom: 20px;
+}
+
+.parrafo_hero {
+  font-size: 17px;
+  line-height: 26px;
+  color: #2b2a33;
+  margin-bottom: 25px;
+  width: 630px;
+}
+
+.contenedor_accion {
+  display: block;
+}
+
+.btn_descargar_hero {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0060df;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.enlace_privacidad {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #555555;
+}
+
+.caja_hero_imagen {
+  display: inline-block;
+  width: 520px;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.caja_hero_imagen img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.seccion_dinosaurio {
+  background-color: #f7f7f8;
+  padding: 65px 0;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.caja_dinosaurio_imagen {
+  display: inline-block;
+  width: 320px;
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.caja_dinosaurio_imagen img {
+  width: 310px;
+  height: auto;
+  display: inline-block;
+}
+
+.caja_dinosaurio_texto {
+  display: inline-block;
+  width: 340px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.titulo_dinosaurio {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #2b2a33;
+  margin-bottom: 25px;
+}
+
+.parrafo_dinosaurio {
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b2a33;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.seccion_columnas {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.columna_doble {
+  display: inline-block;
+  width: 590px;
+  vertical-align: top;
+  padding: 10px 45px 20px 45px;
+}
+
+.borde_derecho {
+  border-right: 1px solid #dcdcdc;
+}
+
+.titulo_columna {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2b2a33;
+  margin-bottom: 25px;
+}
+
+.parrafo_columna {
+  font-size: 16px;
+  line-height: 26px;
+  color: #2b2a33;
+  margin-bottom: 30px;
+}
+
+.lista_columna {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.lista_columna li {
+  margin-bottom: 12px;
+}
+
+.lista_columna a {
+  color: #0000ff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.seccion_caracteristicas {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.caja_caracteristica {
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
+  padding: 0 35px;
+}
+
+.icono_caracteristica {
+  margin-bottom: 25px;
+}
+
+.icono_caracteristica img {
+  height: 90px;
+  width: auto;
+  display: inline-block;
+}
+
+.titulo_caracteristica {
+  margin-bottom: 18px;
+}
+
+.titulo_caracteristica a {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.parrafo_caracteristica {
+  font-size: 18px;
+  line-height: 26px;
+  color: #2b2a33;
+}
+
+.seccion_newsletter {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.caja_newsletter_imagen {
+  display: inline-block;
+  width: 440px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.caja_newsletter_imagen img {
+  width: 250px;
+  height: auto;
+  display: inline-block;
+}
+
+.caja_newsletter_formulario {
+  display: inline-block;
+  width: 420px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.titulo_newsletter {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.formulario_newsletter {
+  width: 100%;
+}
+
+.etiqueta_campo {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.campo_correo {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #737373;
+  border-radius: 4px;
+  padding: 0 14px;
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.boton_registro {
+  width: 100%;
+  height: 42px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.texto_aviso {
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+.pie_pagina_total {
+  width: 100%;
+  background-color: #000000;
+  padding: 40px 0;
+}
+
+.logo_pie {
+  height: 32px;
+  width: auto;
+  display: inline-block;
+}
